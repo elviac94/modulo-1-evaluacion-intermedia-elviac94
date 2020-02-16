@@ -32,23 +32,28 @@ a{
     width: 155px;
     padding-top: 10px;
 }
+
+.header-logo a{
+    padding: 8px;
+}
 .header-logo img{ 
     width: 100%;
 }
-.menu-dos .menu-tres{
+.menu-two .menu-three{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.menu-tres li a{
+.menu-three li a{
     color: #4a4a4a;
+    text-transform: uppercase;
 }
 .menu {
     padding-top: 10px;
     padding-bottom: 13px;
 }
-.menu-tres li{
+.menu-three li{
     padding-right: 20px;
 }
 
@@ -71,7 +76,6 @@ a{
 }
 @media all and (min-width:768px){
     .header{
-        display: flex;
         flex-direction: row;
         justify-content: space-between;
         padding-left: 30px;
@@ -81,10 +85,11 @@ a{
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .uno{
+    
+    .one{
         padding-right: 20px;
     }
-     li.dos{
+     li.two{
         padding-right: 0px;
     }
     .principal-container h1{
